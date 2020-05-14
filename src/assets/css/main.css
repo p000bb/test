@@ -1,0 +1,166 @@
+html,
+body,
+#app {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: auto;
+}
+
+.el-row,
+.el-col {
+	height: 100%
+}
+
+.click-span {}
+
+.click-span:hover {
+	cursor: pointer;
+	color: #FF6633;
+}
+
+.a1 {
+	font-size: 16px;
+	line-height: 60px;
+	color: white;
+	text-decoration: none;
+}
+
+.a1:hover {
+	cursor: pointer;
+	color: #FF6633;
+}
+.list_a{
+	font-size: 16px;
+	line-height: 40px;
+	color: #37a;
+	text-decoration: none;
+}
+.list_a:hover {
+	cursor: pointer;
+	color: #FF6633;
+}
+.elinput {
+	width: 100%;
+}
+
+.form1 {
+	width: 80%;
+	margin: auto;
+}
+
+
+.el-form-item__content {
+	display: flex;
+}
+
+.margin-right-10 {
+	margin-right: 10px;
+}
+
+.el-header {
+	padding: 0
+}
+
+.el-main {
+	padding: 0
+}
+
+.d1 {
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	border-bottom: 2px solid #dadada;
+}
+
+.d2 {
+	line-height: 100px
+}
+
+.d3 {
+	height: 100%;
+	display: flex;
+}
+
+.d4 {
+	font-size: 25px;
+	line-height: 100px;
+	color: #999;
+	font-family: HiraginoSansGB-W3;
+	display: inline-block;
+	position: relative;
+}
+
+.el-dropdown-link {
+	cursor: pointer;
+	color: white;
+}
+
+.el-dropdown {
+	cursor: pointer;
+	color: white;
+}
+
+.el-icon-arrow-down {
+	font-size: 12px;
+}
+
+.el-rate {
+	display: inline-flex;
+	margin-left: 10px
+}
+
+.el-radio-group {
+	line-height: 50px
+}
+
+.avatar-uploader .el-upload {
+	border: 1px dashed black;
+	border-radius: 6px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+.avatar-uploader .el-upload:hover {
+	border-color: #409EFF;
+}
+
+.el-tabs.el-tabs--top {
+	min-height: 480px !important;
+
+}
+
+.main {
+	width: 80%;
+	margin: auto
+}
+.input_search{
+	width: 150px;
+	height: 40px;
+	margin-right:20px;
+	margin:15px 0 15px 20px
+}
+.input[disabled],input:disabled,input.disabled{  
+    -webkit-text-fill-color:#333;  
+    -webkit-opacity:1;  
+    opacity: 1;  
+}
+
+.el-carousel__item h3 {
+	display: flex;
+    color: #475669;
+    font-size: 14px;
+	width: 350px;
+    /* opacity: 0.75; */
+    line-height: 240px;
+    margin: 0;
+  }
+  .el-carousel__item .is-active .is-animating{
+	  width: 350px;
+	  height: 240px;
+  }
+  .sum{
+  	overflow:auto; 
+  }
