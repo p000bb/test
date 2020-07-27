@@ -19,14 +19,14 @@ export default {
 		if (ServiceType) {
 			switch (ServiceType) {
 				case 'douban': 
-					// serviceUrl = 'https://douban.uieee.com'
+					serviceUrl = 'https://douban.uieee.com'
 					// serviceUrl = 'https://douban-api.now.sh'
 					// serviceUrl = 'https://douban-api-git-master.zce.now.sh'
 					// serviceUrl = 'https://douban-api.uieee.com'
 					// serviceUrl = 'https://douban-api.zce.now.sh'
-					serviceUrl = 'https://api.douban.com'
+					// serviceUrl = 'https://api.douban.com'
 					// apikey:'0df993c66c0c636e29ecbb5344252a4a'
-					obj = {}
+					obj = {apikey:'0df993c66c0c636e29ecbb5344252a4a'}
 			}
 		}
 		//获取loading
@@ -50,3 +50,5 @@ export default {
 		})
 	},
 }
+
+

@@ -9,8 +9,12 @@ import utils from './axios/config.js'
 import md5 from 'js-md5';
 import VueResource from 'vue-resource'
 import HighchartsVue from 'highcharts-vue'
+import BaiduMap from 'vue-baidu-map'
 
 
+Vue.use(BaiduMap, {
+    ak: 'tk1hL0mZUj82ezOPCp9QxGojwnFYGUkz'
+});
 Vue.use(HighchartsVue)
 Vue.use(VueResource)
 Vue.use(ElementUI);

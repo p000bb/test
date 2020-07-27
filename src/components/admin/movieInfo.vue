@@ -115,6 +115,10 @@
 				})
 			},
 			add() {
+				this.form.xxName =  "",
+				this.form.xxId =  "",
+				this.form.xxImg =  "",
+				this.form.xxType =  "",
 				this.dialogVisible = true;
 				this.dialogTitle = "添加电影"
 			},

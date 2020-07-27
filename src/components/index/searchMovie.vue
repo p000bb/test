@@ -319,6 +319,7 @@
 			this.username = sessionStorage.getItem('info')?JSON.parse(sessionStorage.getItem('info')).yesapi_nickname:""
 			this.search(this.$route.query.id)
 			this.getRank();
+			this.getxxComment();
 		},
 		methods: {
 			divNum(index) {

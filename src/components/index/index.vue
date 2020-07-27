@@ -149,6 +149,7 @@
 				loading: false,
 				loading1: false,
 				taburl: '/v2/movie/in_theaters?apikey=0df993c66c0c636e29ecbb5344252a4a',
+				// 
 				movieType: [
 					"漫威系列",
 					"港片经典",
@@ -401,7 +402,7 @@
 
 				// this.$utils.http.call(this, {
 				// 	url: obj,
-				// 	method: "get",
+				// 	method: "post",
 				// 	ServiceType: 'douban',
 				// 	parameter: {
 				// 		start: 0,

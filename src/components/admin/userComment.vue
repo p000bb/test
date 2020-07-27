@@ -12,7 +12,7 @@
 			<el-table-column prop="username" label="评论人"></el-table-column>
 			<el-table-column prop="comments" label="评论内容"></el-table-column>
 			<el-table-column prop="rank" label="评分"></el-table-column>
-			<el-table-column prop="creatTime" label="评论时间"></el-table-column>
+			<el-table-column prop="add_time" label="评论时间"></el-table-column>
 			<el-table-column label="用户头像" prop="cover">
 				<template slot-scope="scope">
 					<el-popover placement="right" title="" trigger="hover">

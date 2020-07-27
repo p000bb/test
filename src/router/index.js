@@ -71,7 +71,7 @@ router.beforeEach((to, from, next) => {
 		token ? next() : next('/login')
 	} else if (to.path == '/admin') {
 		let role = sessionStorage.getItem('role')
-		role ? next() : next('/login')
+		role == 'admin' ? next() : next('/login')
 	} else {
 		next()
 	}
